@@ -34,13 +34,13 @@ const cart = [
 
 //CODE HERE
 
-//This would work if cart was just a single object. Still can't figure out how to access an array of objects.
+const sumPrice = cart.reduce(function (acc, curr) {
+    return acc + curr.price
+}, 0)
 
-const summedPrice = cart.reduce((acc, curr) => acc + curr)
+console.log(sumPrice)
 
-console.log(summedPrice)
-
-
+//Why does this not work if I don't put an initial value? I thought if you left it blank that it would assume the initial value of 0.
 
 //////////////////PROBLEM 2////////////////////
 /*  
@@ -85,7 +85,12 @@ const calcFinalPrice = (cartTotal, couponValue, tax) => {
 */
 
 /*
-    name, street, city, state, zipcode
+    name: Customers name, needed for order, 'string'
+    house number: Street address, needed for delivery order, number
+    street: Also needed for address, needed for delivery order, 'string'
+    city: Also needed for address, needed for delivery order, 'string'
+    state: Also needed for address, needed for delivery order, 'string'
+    zipcode: Also needed for address, needed for delivery order, number
 
 */
 
@@ -96,9 +101,10 @@ const calcFinalPrice = (cartTotal, couponValue, tax) => {
 
 //CODE HERE
 const customer1 = {
-    name: 'Ben Corson',
-    street: '123 Easy St',
+    name: 'Ben',
+    houseNumber: 123,
+    street: 'Easy St',
     city: 'Chilltown',
     state: 'TX',
-    zipcode: 12345
+    zipcode: 54321
 }
