@@ -36,9 +36,11 @@ const cart = [
 
 //This would work if cart was just a single object. Still can't figure out how to access an array of objects.
 
-const summedPrice = cart[0].reduce((acc, curr) => acc + curr)
+const summedPrice = cart.reduce((acc, curr) => acc + curr)
 
 console.log(summedPrice)
+
+
 
 //////////////////PROBLEM 2////////////////////
 /*  
