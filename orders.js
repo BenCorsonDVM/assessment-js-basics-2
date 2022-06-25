@@ -6,7 +6,6 @@
     to make tickets from order information.
 */
 
-
 //////////////////PROBLEM 1////////////////////
 /*  
     Create a new class called `Ticket`.
@@ -31,8 +30,6 @@
 
 //CODE HERE
 
-
-
 /*
     Create a new instance of your class.
     Save it to a variable called `firstTicket`.
@@ -45,7 +42,6 @@
 */
 
 //CODE HERE
-
 
 /*
     Call the `updateStatus` method on
