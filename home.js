@@ -124,6 +124,8 @@ const deals = [
 
 //CODE HERE
 
+//Not sure if this is the way you are wanting us to do this
+
 deals[0].title = deals[0].title.replace('15', '10')
 
 // console.log(deals)
