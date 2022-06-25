@@ -124,7 +124,7 @@ const deals = [
 
 //CODE HERE
 
-//Not sure if this is the way you are wanting us to do this
+//Not sure if this is the way you are wanting us to do this like if this was supposed to be a function or for loop.
 
 deals[0].title = deals[0].title.replace('15', '10')
 
