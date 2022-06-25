@@ -109,12 +109,12 @@ const foodArr = [
     tags: ['Cheese', 'Stuffed', 'Crust', 'Entree']
 },
 {
-    name: 'Pepperoni',
-    price: 9.99,
+    name: 'Veggie',
+    price: 11.99,
     category: 'Entree',
-    popularity: 80,
-    rating: 7,
-    tags: ['Cheese', 'Pepperoni', 'Entree']
+    popularity: 40,
+    rating: 3,
+    tags: ['Cheese', 'Olives', 'Onions', 'Mushrooms', 'Entree']
 },
 {
     name: 'Sausage',
@@ -125,20 +125,20 @@ const foodArr = [
     tags: ['Cheese', 'Sausage', 'Entree']
 },
 {
+    name: 'Pepperoni',
+    price: 9.99,
+    category: 'Entree',
+    popularity: 80,
+    rating: 7,
+    tags: ['Cheese', 'Pepperoni', 'Entree']
+},
+{
     name: 'Cheese',
     price: 8.99,
     category: 'Entree',
     popularity: 99,
     rating: 8,
     tags: ['Cheese', 'Entree']
-},
-{
-    name: 'Veggie',
-    price: 11.99,
-    category: 'Entree',
-    popularity: 40,
-    rating: 3,
-    tags: ['Cheese', 'Olives', 'Onions', 'Mushrooms', 'Entree']
 }
 ]
 
