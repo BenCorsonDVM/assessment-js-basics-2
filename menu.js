@@ -156,9 +156,13 @@ const foodArr = [
 
 //CODE HERE
 
-const filteredFood = foodArr.filter(function())
+// const filteredFood = foodArr.filter(function(topping) {
+//     return topping.tags === 'Pepperoni'
+// })
 
+const filteredFood = foodArr.filter(topping => topping.tags === 'Pepperoni')
 
+//Struggling to get it to access in the array of tags. Works with all other key values.
 
 console.log(filteredFood)
 
@@ -202,6 +206,19 @@ console.log(filteredFood)
 */
 
 //CODE HERE
+
+const filterByProperty = (property, number, type) => {
+    let filteredArr = []
+    if(type > number) {
+        return 
+    }
+    
+}
+
+//THIS QUESTION MAKES NO SENSE
+
+// const filtered = foodArr.filter(topping => topping.tags === 'Pepperoni')
+
 
 
 /*
