@@ -31,8 +31,15 @@
 */
 
 //CODE HERE
-
-
+const pizza = 
+{
+    name: 'Stuffed Crust',
+    price: 12.99,
+    category: 'Entree',
+    popularity: 95,
+    rating: 9,
+    tags: ['Stuffed', 'Crust', 'Entree', 'Cheesy']
+}
 
 //////////////////PROBLEM 2////////////////////
 /* 
@@ -43,7 +50,7 @@
 */
 
 //CODE HERE
-
+// console.log(pizza.popularity)
 
 /*
     Second, log the second tag in your pizza's
@@ -53,7 +60,7 @@
 */
 
 //CODE HERE
-
+// console.log(pizza.tags[1])
 
 /*
     Third, destructure the price off of the
@@ -63,7 +70,9 @@
 */
 
 //CODE HERE
+let {price} = pizza
 
+// console.log(price)
 
 /*
     Fourth, and last, destructure the category
@@ -73,7 +82,9 @@
 */
 
 //CODE HERE
+let {category} = pizza
 
+console.log(category)
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -88,8 +99,48 @@
 */
 
 //CODE HERE
-
-
+const foodArr = [
+{
+    name: 'Stuffed Crust',
+    price: 12.99,
+    category: 'Entree',
+    popularity: 95,
+    rating: 9,
+    tags: ['Cheese', 'Stuffed', 'Crust', 'Entree']
+},
+{
+    name: 'Pepperoni',
+    price: 9.99,
+    category: 'Entree',
+    popularity: 80,
+    rating: 7,
+    tags: ['Cheese', 'Pepperoni', 'Entree']
+},
+{
+    name: 'Sausage',
+    price: 10.99,
+    category: 'Entree',
+    popularity: 60,
+    rating: 5,
+    tags: ['Cheese', 'Sausage', 'Entree']
+},
+{
+    name: 'Cheese',
+    price: 8.99,
+    category: 'Entree',
+    popularity: 99,
+    rating: 8,
+    tags: ['Cheese', 'Entree']
+},
+{
+    name: 'Veggie',
+    price: 11.99,
+    category: 'Entree',
+    popularity: 40,
+    rating: 3,
+    tags: ['Cheese', 'Olives', 'Onions', 'Mushrooms', 'Entree']
+}
+]
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -105,9 +156,11 @@
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter(function())
 
 
+
+console.log(filteredFood)
 
 //////////////////PROBLEM 5////////////////////
 /* 
