@@ -84,7 +84,7 @@ let {price} = pizza
 //CODE HERE
 let {category} = pizza
 
-console.log(category)
+// console.log(category)
 
 //////////////////PROBLEM 3////////////////////
 /* 
