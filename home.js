@@ -24,7 +24,7 @@
 //CODE HERE
 const greetUser = (username) => `Welcome back, ${username}`
 
-// console.log(greetUser('Andrew'))
+console.log(greetUser('Andrew'))
 
 //////////////////PROBLEM 2////////////////////
 /* 
@@ -57,7 +57,7 @@ const canWeDeliver = (zipCode) => {
     }
 }
 
-// console.log(canWeDeliver(85206))
+console.log(canWeDeliver(85206))
 
 /* 
     Problem 2 Continued
@@ -87,7 +87,7 @@ const canWeDeliverTwo = (zipCode) => {
     return "We're sorry, we can't deliver to that address."
 }
 
-// console.log(canWeDeliverTwo(85206))
+console.log(canWeDeliverTwo(85206))
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -126,7 +126,7 @@ const deals = [
 
 deals[0].title = deals[0].title.replace('15', '10')
 
-// console.log(deals)
+console.log(deals)
 
 /*
     The restaurant is going to continue its
@@ -145,4 +145,4 @@ deals[0].title = deals[0].title.replace('15', '10')
 deals[1].desc = deals[1].desc.replace('March', 'April')
 .trim(deals[1].desc)
 
-// console.log(deals)
+console.log(deals)
