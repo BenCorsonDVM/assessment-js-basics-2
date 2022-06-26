@@ -210,6 +210,10 @@ const filterByProperty = (property, number, type) => {
     }
 }
 
+/*  I struggled so much with this question. I even asked Jeddy for help with this one and I'm still clueless.
+    The question is very confusing. I do think it could be worded better.
+*/
+
 /*
 Invoke the `filterByProperty` function passing
 in a value for each paramter.
