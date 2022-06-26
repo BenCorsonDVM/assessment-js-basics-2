@@ -198,12 +198,15 @@ const filteredFood = foodArr.filter(topping => topping.tags.includes('Olives'))
     
     Return the filtered array from the entire function
 */
+// PROPERTY = RATING, POPULARITY, OR PRICE
+// NUMBER = NUMBER THAT WE ARE COMPARING AGAINST
+// TYPE = 'ABOVE' OR 'BELOW'
 
 const filterByProperty = (property, number, type) => {
     let filteredArr = []
-    const filterAbove = foodArr.filter(rank => rank.rating > number)
+    const filterAbove = foodArr.filter(rank => rank.property > number)
     if(filterAbove === true) {
-        return 
+        return true
     }
 }
 
