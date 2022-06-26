@@ -1,3 +1,18 @@
 LINK TO FIGMA
 
 https://www.figma.com/file/eE1wGuYLth4viRLCbgb7yF/Untitled?node-id=0%3A1
+
+1) Apple
+    Apple use Swift, Objective-C, Cocoa Touch, and Cocoa for their Applications and Data. They use Framer and OpenStreetMap for their Utilities. They use Xcode, Pingdom, and TeamCity for their DevOps.
+
+https://stackshare.io/apple/apple
+
+2) Samsung
+    Samsung uses AWS Lambda, Bonsai, Firebase, HTML5, and Testin. For Finance, Samsung uses Digital River, Square, and Symmetry. For Productivity, Samsung uses AWW, Benevity, Kakao Talk, and Slack. For Sales and Support, Samsung uses App Annie, Pitchbook, Lithium, and Survey Monkey. For Marketing, Samsung uses Admotion, Jainrain, and ReachForce. For Analytics, Samsung uses ClickTale and Google Analytics. For HR, Samsung uses JazzHR.
+
+https://www.quora.com/What-is-Samsungs-technology-stack  
+
+3) Facebook
+    Facebook's client side uses HTML, CSS, and JavaScript. Facebook's server side uses Linux, Apache, MySQL, and PHP. For Stability, Facebook uses HHVM, C++, and Hack. For Facebook's Messenger App, they use Haskell, Erland, and C++. For their Database Implementation, they use Cassandra, HBase, MariaDB, MySQL, and Hadoop. For their main application, they use Java, Swift, C#, and Xamarin.forms.
+
+https://www.quora.com/What-is-the-technology-stack-for-Facebook
