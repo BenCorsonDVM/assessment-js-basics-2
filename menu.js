@@ -204,7 +204,7 @@ const filteredFood = foodArr.filter(topping => topping.tags.includes('Olives'))
 // COMPARING RATINGS ABOVE 6
 
 const filterByProperty = (property, number, type) => {
-    // let filteredAbove = []
+    let filteredAbove = []
     const filteredArr = foodArr.filter(element => element > number)
     if(type === 'above'){
         return property
@@ -225,3 +225,5 @@ You'll have to console.log to see the filtered array
 */
 
 filterByProperty('rating', 6, 'above')
+
+console.log(filteredAbove)
