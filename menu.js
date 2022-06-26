@@ -201,17 +201,20 @@ const filteredFood = foodArr.filter(topping => topping.tags.includes('Olives'))
 // PROPERTY = RATING, POPULARITY, OR PRICE
 // NUMBER = NUMBER THAT WE ARE COMPARING AGAINST
 // TYPE = 'ABOVE' OR 'BELOW'
+// COMPARING RATINGS ABOVE 6
 
 const filterByProperty = (property, number, type) => {
-    let filteredArr = []
-    const filterAbove = foodArr.filter(rank => rank.property > number)
-    if(filterAbove === true) {
-        return true
+    // let filteredAbove = []
+    const filteredArr = foodArr.filter(element => element > number)
+    if(type === 'above'){
+        return property
     }
 }
 
 /*  I struggled so much with this question. I even asked Jeddy for help with this one and I'm still clueless.
-    The question is very confusing. I do think it could be worded better.
+    The question is very confusing. I do think it could be worded better. I can't tell if it wants me to check if type === 'above'
+    or if property > number. I'm just confused on the order of things. I've looked through lecture slides, handouts, demos, labs, and at least an 
+    hour or two of google searching and I still can't figure it out so I give up but I will ask about it in the assessment review.
 */
 
 /*
@@ -221,4 +224,4 @@ in a value for each paramter.
 You'll have to console.log to see the filtered array
 */
 
-console.log(filterByProperty('rating', 6, 'above'))
+filterByProperty('rating', 6, 'above')
